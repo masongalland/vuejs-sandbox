@@ -21,6 +21,10 @@ const router = new VueRouter({
       path: '/select',
       name: 'custom select',
       component: SelectNames
+    },
+    {
+      path: '/',
+      name: 'home'
     }
   ]
 })

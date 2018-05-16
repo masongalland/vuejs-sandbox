@@ -2,6 +2,8 @@
   <div id="app">
     <nav>
       <router-link to="drag">Drag-n-drop</router-link>
+      <router-link to="select">Custom Drop down</router-link>
+      <router-link to="/">home</router-link>
     </nav>
     <router-view />
     <Header @changeName='nameIsChanging' :myName='myName'/>
@@ -78,5 +80,6 @@ nav > * {
   color: white;
   text-decoration: none;
   cursor: pointer;
+  margin: 0 30px;
 }
 </style>
